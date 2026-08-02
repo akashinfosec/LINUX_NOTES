@@ -19,3 +19,10 @@ ls -la /var/log
 - **Command** → `ls`
 - **Options** → `-la` (`-l` + `-a`)
 - **Argument** → `/var/log`
+
+### NOTE:
+```note
+man ls
+```
+
+- `**man ls**` command opens the manual for `ls` command
