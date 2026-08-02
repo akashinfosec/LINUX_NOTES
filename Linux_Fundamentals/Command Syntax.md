@@ -1,20 +1,21 @@
-#Command Syntax
+# Command Syntax
 
-##Command [Options] [Arguments]
+## Command [Options] [Arguments]
 
--Command = The program we want to run 
+- **Command** = The program we want to run.
 
--Options = Modifies the behaviour of the command (starts with - or --)
-'-' is short option like '-a'
-'--' is descriptive option like '--all'
-Both - and -- will do the same thing.
+- **Options** = Modify the behaviour of the command.
+  - `-` = Short option (e.g., `-a`)
+  - `--` = Long option (e.g., `--all`)
 
--Arguments= Arguments are targets on which our commands will work. Common targets are files/dir/users/etc
+- **Arguments** = The target on which the command operates (files, directories, users, etc.).
 
-###Eg:
-'ls -la /var/log'
+### Example
 
--ls= command
--/-la= options (-la = -l + -a) 
--/var/log= targets or arguments
+```bash
+ls -la /var/log
+```
 
+- **Command** → `ls`
+- **Options** → `-la` (`-l` + `-a`)
+- **Argument** → `/var/log`
