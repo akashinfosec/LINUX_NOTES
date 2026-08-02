@@ -25,4 +25,4 @@ ls -la /var/log
 man ls
 ```
 
-- `**man ls**` command opens the manual for `ls` command
+- ` **man ls** ` command opens the manual for `ls` command
